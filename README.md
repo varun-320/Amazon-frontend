@@ -87,8 +87,8 @@ To learn React, check out the [React documentation](https://reactjs.org/).
 
 ## 👨‍💻 Author
 
-Developed by [Varun Shetty](https://github.com/varun-320)
-Website link (https://mern-stack-projects.netlify.app/)
+- Developed by [Varun Shetty](https://github.com/varun-320)
+- Website link (https://mern-stack-projects.netlify.app/)
 ---
 
 ## 📃 License
