@@ -1,0 +1,311 @@
+.product-detail-container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+.product-detail {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 40px;
+    margin-bottom: 40px;
+}
+
+.product-images {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.main-image {
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    overflow: hidden;
+}
+
+.main-image img {
+    width: 100%;
+    height: 400px;
+    object-fit: contain;
+}
+
+.image-thumbnails {
+    display: flex;
+    gap: 10px;
+    overflow-x: auto;
+}
+
+.image-thumbnails img {
+    width: 80px;
+    height: 80px;
+    object-fit: cover;
+    border: 2px solid transparent;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: border-color 0.2s;
+}
+
+.image-thumbnails img.active {
+    border-color: #e47911;
+}
+
+.product-info h1 {
+    margin: 0 0 15px 0;
+    color: #131921;
+}
+
+.rating {
+    color: #ffa41c;
+    margin-bottom: 15px;
+}
+
+.rating span {
+    color: #565959;
+    margin-left: 5px;
+}
+
+.price {
+    font-size: 1.8em;
+    color: #e47911;
+    margin-bottom: 15px;
+}
+
+.stock {
+    color: #007600;
+    margin-bottom: 15px;
+}
+
+.category {
+    color: #565959;
+    margin-bottom: 15px;
+}
+
+.description {
+    color: #333;
+    line-height: 1.6;
+    margin-bottom: 20px;
+}
+
+.product-actions {
+    display: flex;
+    gap: 1rem;
+    margin-top: 2rem;
+}
+
+.edit-button,
+.delete-button {
+    padding: 0.75rem 1.5rem;
+    border: none;
+    border-radius: 4px;
+    font-size: 1rem;
+    cursor: pointer;
+    transition: background-color 0.2s;
+}
+
+.edit-button {
+    background-color: #2196F3;
+    color: white;
+}
+
+.edit-button:hover {
+    background-color: #1976D2;
+}
+
+.delete-button {
+    background-color: #f44336;
+    color: white;
+}
+
+.delete-button:hover {
+    background-color: #d32f2f;
+}
+
+.admin-actions {
+    display: flex;
+    gap: 10px;
+    margin-top: 20px;
+}
+
+.edit-button,
+.delete-button {
+    padding: 10px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-weight: bold;
+}
+
+.edit-button {
+    background: #232f3e;
+    color: white;
+}
+
+.delete-button {
+    background: #c40000;
+    color: white;
+}
+
+/* Reviews Section */
+.reviews-section {
+    margin-top: 40px;
+}
+
+.reviews-section h2 {
+    margin-bottom: 20px;
+    color: #131921;
+}
+
+.review-form {
+    background: #f8f9fa;
+    padding: 20px;
+    border-radius: 8px;
+    margin-bottom: 30px;
+}
+
+.review-form h3 {
+    margin: 0 0 15px 0;
+}
+
+.form-group {
+    margin-bottom: 15px;
+}
+
+.form-group label {
+    display: block;
+    margin-bottom: 5px;
+    color: #333;
+}
+
+.form-group select,
+.form-group textarea {
+    width: 100%;
+    padding: 8px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+}
+
+.form-group textarea {
+    height: 100px;
+    resize: vertical;
+}
+
+.review-actions {
+    display: flex;
+    gap: 10px;
+}
+
+.review-actions button {
+    padding: 8px 16px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-weight: 500;
+    transition: background-color 0.2s;
+}
+
+.submit-button {
+    background-color: #4CAF50;
+    color: white;
+}
+
+.cancel-button {
+    background-color: #f44336;
+    color: white;
+}
+
+.edit-button {
+    background-color: #2196F3;
+    color: white;
+}
+
+.delete-button {
+    background-color: #f44336;
+    color: white;
+}
+
+.reviews-list {
+    margin-top: 2rem;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.review-item {
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    padding: 1rem;
+    margin-bottom: 1rem;
+    background-color: white;
+}
+
+.review-header {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+    margin-bottom: 0.5rem;
+}
+
+.review-rating {
+    color: #f0c14b;
+    font-size: 1.1rem;
+}
+
+.review-user {
+    font-weight: 500;
+    color: #555;
+}
+
+.review-date {
+    color: #666;
+    font-size: 0.9rem;
+}
+
+.review-actions {
+    margin-left: auto;
+    display: flex;
+    gap: 0.5rem;
+}
+
+.edit-review-btn,
+.delete-review-btn {
+    padding: 0.4rem 0.8rem;
+    border: none;
+    border-radius: 4px;
+    font-size: 0.9rem;
+    cursor: pointer;
+    transition: background-color 0.2s;
+}
+
+.edit-review-btn {
+    background-color: #2196F3;
+    color: white;
+}
+
+.edit-review-btn:hover {
+    background-color: #1976D2;
+}
+
+.delete-review-btn {
+    background-color: #f44336;
+    color: white;
+}
+
+.delete-review-btn:hover {
+    background-color: #d32f2f;
+}
+
+.review-comment {
+    margin-top: 0.5rem;
+    color: #333;
+    line-height: 1.5;
+}
+
+@media (max-width: 768px) {
+    .product-detail {
+        grid-template-columns: 1fr;
+    }
+
+    .main-image img {
+        height: 300px;
+    }
+}

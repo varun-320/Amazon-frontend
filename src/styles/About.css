@@ -1,0 +1,76 @@
+*{ 
+.main-container {
+  max-width: 800px;
+  margin: 50px auto;
+  padding: 20px;
+  background-color: #fff;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  border-radius: 8px;
+  text-align: center;
+}
+
+h1 {
+  font-size: 2rem;
+  color: #333;
+  margin-bottom: 10px;
+}
+
+p {
+  font-size: 1.1rem;
+  color: #555;
+  line-height: 1.6;
+}
+
+
+h2 {
+  font-size: 1.5rem;
+  color: #222;
+  margin-top: 20px;
+  border-bottom: 2px solid #ddd;
+  padding-bottom: 5px;
+}
+
+/* List styling */
+ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+ul li {
+  font-size: 1rem;
+  color: #444;
+  padding: 8px;
+}
+
+/* Contact details */
+a {
+  color: #0073e6;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+a:hover {
+  text-decoration: underline;
+  color: #005bb5;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+  .main-container {
+    width: 90%;
+    padding: 15px;
+  }
+
+  h1 {
+    font-size: 1.8rem;
+  }
+
+  h2 {
+    font-size: 1.3rem;
+  }
+
+  p {
+    font-size: 1rem;
+  }
+}  
+}
